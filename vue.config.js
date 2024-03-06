@@ -1,7 +1,7 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   transpileDependencies: true,
-  lintOnSave: true,
+  lintOnSave: false,
   //vue代理后端接口的配置
   devServer: {
     //设置端口信息
