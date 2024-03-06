@@ -1,7 +1,7 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
   transpileDependencies: true,
-  lintOnSave: false,
+  lintOnSave: true,
   //vue代理后端接口的配置
   devServer: {
     //设置端口信息
@@ -31,7 +31,7 @@ module.exports = defineConfig({
   //vue打包配置
 
   //配置公共路径
-  publicPath: "./",
+  publicPath: "/",
   //打包文件夹
   outputDir: "dist",
   //将静态资源打包
