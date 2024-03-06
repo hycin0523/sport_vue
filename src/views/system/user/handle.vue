@@ -231,22 +231,6 @@ export default {
       this.roleList = res.data.data;
     });
   },
-
-  beforeMount() {
-
-  },
-
-  mounted() {
-
-  },
-
-  beforeUpdate() {
-
-  },
-
-  updated() {
-
-  }
 };
 </script>
 
