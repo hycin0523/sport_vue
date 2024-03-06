@@ -44,7 +44,7 @@ router.beforeEach((to, from, next) => {
     //向后端发送请求，获取用户的基本信息
     ajax.get("/user/getInfo").then((res) => {
       //得到用户信息
-      console.log("用户信息",res)
+      // console.log("用户信息",res)
       const user = res.data.data;
       store.commit("setName", user.name);
       store.commit("setAvatar", user.avatar);
