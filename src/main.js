@@ -7,6 +7,8 @@ import "@/utils/elementui";
 import "@/assets/global.css";
 import "@/utils/permission";
 import "@/utils/icons";
+import "@/utils/markdown"
+import "@/utils/highlight"
 
 Vue.prototype.$qiniu = "http://s9nu8lrju.hb-bkt.clouddn.com/";
 
